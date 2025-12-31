@@ -4,7 +4,7 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("https://portfolio-backend-lemon-six.vercel.app/api/projects")
+    fetch("https://portfolio-backend-3vq7.vercel.app/api/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error(err));
